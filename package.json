@@ -1,12 +1,12 @@
 {
   "name": "typescript-template",
   "version": "1.0.0",
-  "description": "Template for the typescript projects.",
+  "description": "A template for the TypeScript projects.",
   "scripts": {
+    "clean": "rimraf dist",
+    "build": "yarn clean && tsc -p .",
     "start": "node dist/app.js",
-    "dev": "nodemon src/app.ts",
-    "clean": "npx rimraf dist",
-    "build": "npm run clean && tsc -p ."
+    "dev": "nodemon src/app.ts"
   },
   "author": "BurakBey",
   "license": "MIT",
