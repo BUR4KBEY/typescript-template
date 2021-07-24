@@ -1,2 +1,2 @@
-const message: string = "Congrats 🎉";
+const message: string = 'Congrats 🎉';
 console.log(message);
