@@ -1,21 +1,21 @@
 {
-  "name": "typescript-template",
-  "version": "1.0.0",
-  "description": "A template for the TypeScript projects.",
-  "scripts": {
-    "clean": "rimraf dist",
-    "build": "yarn clean && tsc -p .",
-    "start": "node dist/app.js",
-    "dev": "nodemon src/app.ts"
-  },
-  "author": "BurakBey",
-  "license": "MIT",
-  "dependencies": {},
-  "devDependencies": {
-    "@types/node": "^14.14.10",
-    "nodemon": "^2.0.6",
-    "rimraf": "^3.0.2",
-    "ts-node": "^9.0.0",
-    "typescript": "^4.1.2"
-  }
+    "name": "typescript-template",
+    "version": "1.0.0",
+    "description": "A template for the TypeScript projects.",
+    "scripts": {
+        "clean": "rimraf dist",
+        "build": "yarn clean && tsc -p .",
+        "start": "node dist/index.js",
+        "dev": "nodemon src/index.ts"
+    },
+    "author": "BurakBey",
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
+        "@types/node": "^14.14.10",
+        "nodemon": "^2.0.6",
+        "rimraf": "^3.0.2",
+        "ts-node": "^9.0.0",
+        "typescript": "^4.1.2"
+    }
 }
